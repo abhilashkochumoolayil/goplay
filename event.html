@@ -38,21 +38,29 @@
                         <div class="top_panel_content">
                             <div class="top_panel_content_logo">
                                 <div class="logo">
-                                    <a href="index.php">
+                                    <a href="index.html">
                                         <img src="images/logo.png" class="logo_main" alt="">
                                         <img src="images/logo_fixed_1.webp" class="logo_fixed" alt="">
                                     </a>
                                 </div>
                             </div>
                             <div class="top_panel_content_menu">
-                                <?php include('nav-bar.php') ?>
+                                <nav class="menu_main_nav_area">
+                                    <ul id="menu_main" class="menu_main_nav">
+                                        <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
+                                        <li class="menu-item"><a href="about-us.html"><span>About Us</span></a></li>
+                                        <!-- <li class="menu-item"><a href="event.html"><span>Event</span></a></li> -->
+                                        <li class="menu-item"><a href="gallery.html"><span>Gallery</span></a></li>
+                                        <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
+                                    </ul>
+                                </nav>
                                 <div class="cL"></div>
                             </div>
                             <div class="cL"></div>
                             <div class="breadcrumbs_present">
                                 <h1 class="page_title">Event</h1>
                                 <div class="breadcrumbs">
-                                    <a class="breadcrumbs_item home" href="index.php">Home</a><span class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">Event</span>
+                                    <a class="breadcrumbs_item home" href="index.html">Home</a><span class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">Event</span>
                                 </div>
                             </div>
                         </div>
@@ -63,10 +71,25 @@
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="index.php"><img src="images/logo.png" class="logo_main" alt=""></a>
+                        <a href="index.html"><img src="images/logo.png" class="logo_main" alt=""></a>
                     </div>
                 </div>
-                <?php include('mob-bar.php') ?>
+                <div class="side_wrap">
+                    <div class="close">Close</div>
+                    <div class="panel_top">
+                        <nav class="menu_main_nav_area">
+                            <ul id="menu_main" class="menu_main_nav">
+
+                                <li class="menu-item"><a href="index.html"><span>Home</span></a></li>
+                                <li class="menu-item"><a href="about-us.html"><span>About Us</span></a></li>
+                                <!-- <li class="menu-item"><a href="event.html"><span>Event</span></a></li> -->
+                                <li class="menu-item"><a href="gallery.html"><span>Gallery</span></a></li>
+                                <li class="menu-item"><a href="contact.html"><span>Contact</span></a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
                 <div class="mask"></div>
             </div>
             <div class="page_content_wrap page_paddings_yes">
@@ -174,7 +197,67 @@
                 </div>
             </div>
 
-            <?php include('footer.php') ?>
+            <footer class="footer_wrap widget_area scheme_original">
+                <div class="footer_wrap_inner widget_area_inner">
+                    <div class="content_wrap">
+                        <div class="columns_wrap">
+                            <aside class="column-1_4 widget widget_socials">
+                                <h5 class="widget_title">ABOUT US</h5>
+                                <div class="widget_inner">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="images/logo.png" class="logo_main" alt=""></a>
+                                    </div>
+                                    <div class="logo_descr"><a href="#">Go Play</a> &copy; 2024
+                                        <br /> All Rights Reserved.
+                                        <br /> <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                                    </div>
+                                </div>
+                            </aside>
+                            <aside class="column-1_4 widget widget_recent_entries">
+                                <h5 class="widget_title">Quick Links</h5>
+                                <ul>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="event.html">Events</a></li>
+                                </ul>
+                            </aside>
+                            <aside class="column-1_4 widget widget_text">
+                                <h5 class="widget_title">CONTACT US</h5>
+                                <div class="textwidget"><i>Address:</i>
+                                    <br> <i>Pinarmunda, near Pinarmunda Juma masjid, Infopark Phase 2, Kochi, Kerala 683565</i>
+                                    <br>
+                                    <br><i>Call Us:</i>
+                                    <br> <i>+91 9207744422</i>
+                                    <br>
+                                    <br><i>Email:</i>
+                                    <br> <a href="#"><i>info@goplay.in</i></a>
+                                </div>
+                            </aside>
+                            <aside class="column-1_4 widget social-media-links">
+                                <h5 class="widget_title">Follow Us</h5>
+                                <div class="social-media-icons">
+                                    <div>
+                                        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
         </div>
     </div>
