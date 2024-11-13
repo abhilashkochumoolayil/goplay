@@ -884,7 +884,7 @@ function esg_init() {
                 lazyLoad:"off",
                 row:3,
                 loadMoreAjaxToken:"db528ebce0",
-                loadMoreAjaxUrl:"http://golfclub.themerex.net/wp-admin/admin-ajax.php",
+                // loadMoreAjaxUrl:"http://golfclub.themerex.net/wp-admin/admin-ajax.php",
                 loadMoreAjaxAction:"Essential_Grid_Front_request_ajax",
                 ajaxContentTarget:"ess-grid-ajax-container-",
                 ajaxScrollToOffset:"0",
