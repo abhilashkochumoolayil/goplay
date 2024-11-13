@@ -1,0 +1,61 @@
+  <footer class="footer_wrap widget_area scheme_original">
+      <div class="footer_wrap_inner widget_area_inner">
+          <div class="content_wrap">
+              <div class="columns_wrap">
+                  <aside class="column-1_4 widget widget_socials">
+                      <h5 class="widget_title">ABOUT US</h5>
+                      <div class="widget_inner">
+                          <div class="logo">
+                              <a href="index.php"><img src="images/logo.png" class="logo_main" alt=""></a>
+                          </div>
+                          <div class="logo_descr"><a href="#">Go Play</a> &copy; 2024
+                              <br /> All Rights Reserved.
+                              <br /> <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                          </div>
+                      </div>
+                  </aside>
+                  <aside class="column-1_4 widget widget_recent_entries">
+                      <h5 class="widget_title">Quick Links</h5>
+                      <ul>
+                          <li><a href="gallery.php">Gallery</a></li>
+                          <li><a href="contact.php">Contact</a></li>
+                          <li><a href="about.php">About</a></li>
+                          <li><a href="event.php">Events</a></li>
+                      </ul>
+                  </aside>
+                  <aside class="column-1_4 widget widget_text">
+                      <h5 class="widget_title">CONTACT US</h5>
+                      <div class="textwidget"><i>Address:</i>
+                          <br> <i>Pinarmunda, near Pinarmunda Juma masjid, Infopark Phase 2, Kochi, Kerala 683565</i>
+                          <br>
+                          <br><i>Call Us:</i>
+                          <br> <i>+91 9207744422</i>
+                          <br>
+                          <br><i>Email:</i>
+                          <br> <a href="#"><i>info@goplay.in</i></a>
+                      </div>
+                  </aside>
+                  <aside class="column-1_4 widget social-media-links">
+                      <h5 class="widget_title">Follow Us</h5>
+                      <div class="social-media-icons">
+                          <div>
+                              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                          </div>
+                          <div>
+                              <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                          </div>
+                          <div>
+                              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+                          </div>
+                          <div>
+                              <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                          </div>
+                          <div>
+                              <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                          </div>
+                      </div>
+                  </aside>
+              </div>
+          </div>
+      </div>
+  </footer>
